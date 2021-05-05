@@ -1,17 +1,32 @@
-# ReduxSimpleStarter
+# MovieApp
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Movie App using React.js, Node.js & GraphQL with real time movie listing updates.
 
 ###Getting Started###
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Checkout this repo, install dependencies, then start:
 
 ```
-	> git clone https://github.com/buraktekin/ReactYoutubeAPI.git
-	> cd ReactYoutubeAPI
+	> git clone git@github.com:mfsi-shivamk/zapier-test.git
+	> cd client
+	> npm install
+	> npm start
+	> cd express-server
+	> touch .env 
+	> copy sample.env to .env
 	> npm install
 	> npm start
 ```
+
+To setup database, run migrations:
+
+```
+	> cd express-server
+	> npx sequelize db:migrate
+```
+
+####Frontend Libraries used#####
+GraphQl, @apollo/client, @material-ui, axios, graphql
+
+####Backend Libraries used#####
+babel, express, joi, passport, mysql2, sequelize
